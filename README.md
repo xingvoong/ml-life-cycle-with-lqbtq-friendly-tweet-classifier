@@ -1,6 +1,6 @@
 # Machine Learning Life Cycle with LGBTQ-Friendly Tweet Classifier
 
-This project walks through a machine learning life cycle from data exploration to model development and deployment through building an LGBTQ Friendly Tweet Classifier. This process is no mean linear but iterative.
+This project walks through a machine learning life cycle from data exploration to model development and deployment by building a LGBTQ Friendly Tweet Classifier. This process is no mean linear but iterative.
 
 ```mermaid
 graph LR
