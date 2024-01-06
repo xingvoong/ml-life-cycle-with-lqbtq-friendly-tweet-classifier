@@ -67,7 +67,7 @@ While the project succeeded in showcasing an ML life cycle, the model developmen
 - Adding a feature to let users rate whether a prediction is good or bad, then taking that new data to train better models.
 
 ## Acknowledgement
-This project is made possible via the resources I use from and inspired by:
+This project is made possible via the resources I am using and inspired by:
 - [LGBT Tweets 🏳️‍🌈 dataset from Kaggle](https://www.kaggle.com/datasets/vencerlanz09/lgbt-tweets?resource=download) 
 - [Hate-Speech-Detection-in-Social-Media-using-Python](https://github.com/NakulLakhotia/Hate-Speech-Detection-in-Social-Media-using-Python/tree/master) by [@NakulLakhotia](https://github.com/NakulLakhotia)
 - The book [Building ML Powered Applications](http://bit.ly/mlpowered-oreilly) by   
