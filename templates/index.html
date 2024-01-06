@@ -1,0 +1,38 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGBTQ Friendly Tweet Classifier</title>
+</head>
+
+<body>
+    <h1>LGBTQ Friendly Tweet Classifier</h1>
+    <form id="prediction-form">
+        <label for="input">Input Data:</label>
+        <input type="text" id="input" name="input" required>
+        <button type="button" onclick="predict()">Predict</button>
+    </form>
+    <div id="result"></div>
+    <script>
+        function predict() {
+            var input = document.getElementById('input').value;
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ input: input }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('result').innerHTML = 'Prediction: ' + data.predictions;
+                });
+        }
+    </script>
+</body>
+
+</html>
