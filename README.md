@@ -17,7 +17,7 @@ D --> A
 [@xingvoong](https://github.com/xingvoong)
 
 ## Data
-The data and details about it can be found [here](https://www.kaggle.com/datasets/vencerlanz09/lgbt-tweets?resource=download).
+The dataset and details about it can be found [here](https://www.kaggle.com/datasets/vencerlanz09/lgbt-tweets?resource=download).
 ## Features
 The final product is an LGBTQ tweet classifier that takes in a tweet to classify whether it is LGBTQ-friendly. The thought process for developing the model can be found in **[Notebooks](https://github.com/xingvoong/ml-life-cycle-with-lqbtq-friendly-tweet-classifier/tree/main/notebooks)**. 
 
