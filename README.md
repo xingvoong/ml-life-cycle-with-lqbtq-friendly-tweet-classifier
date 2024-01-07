@@ -60,7 +60,7 @@ There are 4 notebooks for this project. They explain the decision-making process
 
 ## Limitation and room for improvement
 
-While the project succeeded in showcasing an ML life cycle, the model development phase has a lot of limitations and room for improvement. Some of which I can think of:
+While the project succeeded in showcasing an ML life cycle, it has a lot of limitations and room for improvement. Some of which I can think of:
 
 - Same users are more likely to use the same languages for their tweets, therefor splitting data by users could decrease biases.
 - Right now, the final product only classifies whether a tweet is friendly. It could do more by making a guideline or suggestion on how to write friendly tweets.
