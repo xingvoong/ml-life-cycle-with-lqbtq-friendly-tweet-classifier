@@ -10,7 +10,7 @@ C --> D((Monitoring))
 D --> A
 ```
 
->**Disclaimer:** *The accuracy of the deployment model needs a lot more improvement. I hope you don't use the result of the deployment model to harm the community but to iterate on it to make better models or projects.*
+>**Disclaimer:** *The accuracy of the deployment model needs a lot more improvement. I hope you don't use the result of the deployment model to harm the community but to iterate on it to make better models and projects.*
 
 ## Authors
 
